@@ -1,1 +1,42 @@
-cssc
+Lenovo@Lenovo-PC MINGW64 ~/Documents/GitHub/SE2018/store (master)
+$ git add --all
+
+Lenovo@Lenovo-PC MINGW64 ~/Documents/GitHub/SE2018/store (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   file1.txt
+        new file:   file2.txt
+        new file:   file3.txt
+
+
+Lenovo@Lenovo-PC MINGW64 ~/Documents/GitHub/SE2018/store (master)
+$ git commit -m " add all files"
+[master 7d506a0]  add all files
+ 3 files changed, 83 insertions(+)
+ create mode 100644 Store/file1.txt
+ create mode 100644 Store/file2.txt
+ create mode 100644 Store/file3.txt
+
+Lenovo@Lenovo-PC MINGW64 ~/Documents/GitHub/SE2018/store (master)
+$ git log
+commit 7d506a0466c64cd234a626f89942a0ae1c3ef9f4 (HEAD -> master)
+Author: omarwalid55 <36336200+omarwalid55@users.noreply.github.com>
+Date:   Sun Feb 11 02:10:05 2018 +0200
+
+     add all files
+
+commit df2f78d8a4e2d4cd8c675eb1c84188cb3cff7fe3
+Author: omarwalid55 <36336200+omarwalid55@users.noreply.github.com>
+Date:   Sat Feb 10 18:13:24 2018 +0200
+
+    Initial commit
+
+Lenovo@Lenovo-PC MINGW64 ~/Documents/GitHub/SE2018/store (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
