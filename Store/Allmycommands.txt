@@ -57,4 +57,27 @@ $ git commit -m "deleted file3.txt"
 [master f9f327f] deleted file3.txt
  1 file changed, 24 deletions(-)
  delete mode 100644 Store/file3.txt
+Lenovo@Lenovo-PC MINGW64 /c/Users/lenovo/documents/Github/SE2018-T16/store (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Allmycommands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+Lenovo@Lenovo-PC MINGW64 /c/Users/lenovo/documents/Github/SE2018-T16/store (master)
+$ git add Allmycommands.txt
+
+Lenovo@Lenovo-PC MINGW64 /c/Users/lenovo/documents/Github/SE2018-T16/store (master)
+$ git commit -m "modified all my commands for the 2nd time"
+[master 7687b6f] modified all my commands for the 2nd time
+ 1 file changed, 18 insertions(+)
+
+
 
